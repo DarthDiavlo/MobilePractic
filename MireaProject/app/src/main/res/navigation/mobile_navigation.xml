@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_brouser">
+
+    <fragment
+        android:id="@+id/nav_brouser"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.BrouserFragment"
+        android:label="fragment_brouser"
+        tools:layout="@layout/fragment_brouser" />
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.DataFragment"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/nav_worker"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.WorkerFragment"
+        android:label="fragment_worker"
+        tools:layout="@layout/fragment_worker" />
+</navigation>
