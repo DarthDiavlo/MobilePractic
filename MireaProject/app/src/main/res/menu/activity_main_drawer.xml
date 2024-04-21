@@ -13,5 +13,14 @@
         <item
             android:id="@+id/nav_worker"
             android:title="Крик" />
+        <item
+            android:id="@+id/nav_audio"
+            android:title="Запись вашего прекрасного голоса" />
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Камера" />
+        <item
+            android:id="@+id/nav_changeTheme"
+            android:title="Определить Угол поворота от севера" />
     </group>
 </menu>

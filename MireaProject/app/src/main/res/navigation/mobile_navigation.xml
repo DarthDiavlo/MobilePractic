@@ -20,4 +20,19 @@
         android:name="ru.mirea.dyachenkov.mireaproject.Fragments.WorkerFragment"
         android:label="fragment_worker"
         tools:layout="@layout/fragment_worker" />
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.AudioFragment"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/nav_changeTheme"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.ChangeThemeFragment"
+        android:label="fragment_change_theme"
+        tools:layout="@layout/fragment_change_theme" />
 </navigation>
