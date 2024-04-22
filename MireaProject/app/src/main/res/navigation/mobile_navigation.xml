@@ -35,4 +35,14 @@
         android:name="ru.mirea.dyachenkov.mireaproject.Fragments.ChangeThemeFragment"
         android:label="fragment_change_theme"
         tools:layout="@layout/fragment_change_theme" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_shorthand"
+        android:name="ru.mirea.dyachenkov.mireaproject.Fragments.ShorthandFragment"
+        android:label="fragment_shorthand"
+        tools:layout="@layout/fragment_shorthand" />
 </navigation>

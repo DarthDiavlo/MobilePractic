@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="224dp"
+            android:layout_height="111dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="580dp"
+            android:text="Сохранить"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="246dp"
+            android:layout_height="89dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Name"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="244dp"
+            android:layout_height="87dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="164dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="Age"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="237dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="280dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/orientation"
+            android:layout_width="227dp"
+            android:layout_height="102dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="400dp"
+            android:ems="10"
+            android:inputType="text"
+            android:text="orientation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
